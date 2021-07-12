@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+     --color-primary: #21B573;
+     --color-secondary: #F0FFF0;
+     --color-tartiary: #FD511A;
+     --color-forth: #F8FFFB;
+}
+
+body {
+     font-family: 'Poppins', sans-serif;
+}
+
+header {
+     background-color: var(--color-secondary);
+}
+
+.navbar-brand img {
+     width: 200px;
+}
+
+.sign-in {
+     background-color: var(--color-primary);
+     border-radius: 33px;
+     color: white !important;
+}
+
+.sign-in:focus {
+     outline: none;
+}
+
+.my-btn {
+     border: none;
+     text-decoration: none;
+     padding: 10px 30px;
+     background-color: var(--color-primary);
+     color: white;
+     border-radius: 33px;
+     font-size: 16px;
+}
+
+.nav-link {
+     margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+     color: rgba(0, 0, 0, .55);
+     padding: 10px 25px;
+}
+
+.illustration {
+     width: 100%;
+}
+
+.hero h6 {
+     font-size: 16px;
+     color: var(--color-tartiary);
+     margin-bottom: 10px;
+}
+
+.hero h1 {
+     font-size: 60px;
+     font-weight: 700;
+     margin-bottom: 20px;
+}
+
+.hero h1 span {
+     color: var(--color-primary);
+}
+
+h3 {
+     font-size: 24px;
+     font-weight: 500;
+}
+
+h4 {
+     font-size: 16px;
+}
+
+.my-card {
+     background-color: var(--color-forth);
+     border-radius: 10px;
+     transition: all 0.2s ease;
+     padding: 50px 0;
+}
+
+.my-card:hover {
+     background-color: white;
+     box-shadow: 0 0 40px rgba(0, 0, 0, .2);
+}
+
+h2 {
+     font-size: 36px;
+     font-weight: 700;
+}
+
+.card-footer {
+     background-color: transparent;
+     border: none;
+}
+
+.card-footer img {
+     height: 24px;
+     margin-right: 5px;
+}
+
+.courses .my-btn {
+     margin-top: 20px;
+}
+
+.card {
+     border: none;
+     border-radius: 18px;
+     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+.card img {
+     transform: scale(0.9);
+}
+
+.man {
+     width: 120px;
+}
+
+footer {
+     background-color: #282531;
+     color: white;
+}
+
+footer ul {
+     list-style: none;
+}
+
+footer ul li {
+     margin-bottom: 10px;
+}
+
+.footer-active {
+     font-weight: 700;
+     font-size: 18px;
+}
